@@ -5,24 +5,33 @@
 	<title>Login</title>
 	<style>
 	    body {
-	    	background-image: url();
+	    	background-image: url(https://fondosmil.com/fondo/4045.jpg);
 	    	font-size: 100%;
 	    }
 
-
 		div {
 			border: 1px solid black;
+			border-radius: 10px;
 			width: 400px;
 			height: 300px;
 			position: relative;
-			left: 500px;
-			top: 150px;
+			left: 400px;
+			top: 100px;
 			font-family: sans-serif;
 			font-size: 20px;
+			background-color: white;
+			padding: 30px;
+			margin: 50px;
 
 		}
 		div form {
 			text-align: center;
+			
+		}
+		div a {
+			text-decoration: none;
+			color: grey;
+			font-size: 17px;
 		}
 	</style>
 </head>
@@ -30,11 +39,13 @@
 
  <div>
 	<form>
-		<span>Bienvenido</span>
-		<input type="text" placeholder="Correo">
-		<input type="password" placeholder="Contraseña">
-		<input type="number" placeholder="edad">
-		<input type="date" placeholder="fecha cumpleaños">
+		<span>Bienvenido</span> <br><br>
+		<input type="text" placeholder="Correo"> <br><br>
+		<span>Ponga su Contraseña</span><br><br>
+		<input type="password" placeholder="Contraseña"> <br><br>
+		<input type="number" placeholder="edad"> <br><br>
+		<a href="#">¿Olvidaste tu contraseña?</a> <br>
+		 <button>Enviar</button> 
 	</form>
  </div>
 
