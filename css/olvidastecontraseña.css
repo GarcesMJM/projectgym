@@ -1,0 +1,36 @@
+body {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFP9iCAjIgLFkbDGVm4Y9Sxox3nK1iZikDdvpn6AE1bSc5Da3efLdm8j-w_EwUhtjykjM&usqp=CAU)
+    
+    
+}
+div a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+div {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 380px;
+        height: 350px;
+        position: relative;
+        left: 400px;
+        top: 60px;
+        font-family: sans-serif;
+        font-size: 20px;
+        background-color: white;
+        padding: 30px;
+        margin: 50px;
+
+    
+}
+div form{
+    text-align: center;
+}
+div p {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(189, 186, 186);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+     
