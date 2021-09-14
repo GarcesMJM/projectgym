@@ -1,0 +1,35 @@
+body{
+}
+
+	.reservas {
+			border: 1px solid black;
+			border-radius: 10px;
+			width: 400px;
+			height: 550px;
+			position: relative;
+			left: 400px;
+			top: 100px;
+			font-family: sans-serif;
+			font-size: 20px;
+			background-color: white;
+			padding: 30px;
+			margin: 20px;
+
+		}
+	.reservas form {
+			text-align: center;
+		}
+    .reservas a {
+			color: grey;
+			font-size: 20px;
+			}
+	.reservas h4{
+		color: black;
+		text-align: center;
+	}
+	.reservas a button{
+		text-align: center;
+		font-family: serif;
+	}
+
+
