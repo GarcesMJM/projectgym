@@ -1,0 +1,125 @@
+body {
+	padding: 10px;
+	margin: 20px;
+}
+.navegador ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	background-color: black;
+	overflow: hidden;
+	width: 99.58%;
+}
+.navegador li{
+	float: left;
+}
+
+.navegador li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+.desplegable {
+	width: 30px;
+	float: right;
+	margin-top: -40px;
+	margin-left: 5px;
+	display: none;
+}
+.navegador li a:hover{
+	background-color: white;
+	color: black;
+	font-size: 16px;
+}
+
+.boton{
+	background-color: grey;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.boton:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+@media only screen and (max-width: 1309px) {
+  /* For mobile phones: */
+  .navegador li{
+    width: 100%;
+  }
+  .navegador{
+  	width: 99.59%;
+  	height: 80px;
+  	overflow: hidden;
+  }
+  .desplegable{
+  	display: block;
+  	float: right;
+  	margin-left: 30%;
+  	padding: 6px;
+  	margin-top: -55.7px;
+  	transition: 0.8s;
+  }
+ }
+ @media only screen and (max-width: 1309px) {
+  /* For mobile phones: */
+  .navegador .boton{
+    width: 87%;
+  }
+}
+.navegador.active{
+	height: auto;
+}
+
+
+.navegador.active .desplegable{
+	transform: rotate(180deg);
+	transition: 0.8s;
+}
+.visual img{
+	width: 100%;
+	margin: 0px 0px;
+}
+.visual div{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	padding: 1%;
+	margin: 5px;
+	width: 40%;
+}
+.visual div p{
+	display: line;
+	color: white;
+	font-size: 150%;
+	margin: 0;
+	font-family: 'Playfair Display', cursive;
+}
+
+.visual div h1{
+	color: blue;
+	text-align: center;
+	font-size: 250%;
+	margin: 1%;
+	font-family: 'Permanent Marker', serif ;
+}
+.visual div h2{
+	color: blue;
+	text-align: center;
+	font-size: 250%;
+	margin: 1%;
+	font-family: 'Permanent Marker', serif ;
+}
