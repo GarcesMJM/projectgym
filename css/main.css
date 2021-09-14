@@ -152,17 +152,45 @@ body {
 	margin: 1%;
 	font-family: 'Permanent Marker',  cursive;
 }
-.presentacion div p{
+.presentacion{
+	position: relative;
+}
+.presentacion p{
 	color: black;
 	text-align: center;
 	font-size: 100%;
 	margin: 1%;
 	font-family: 'Permanent Marker', cursive;
 }
-.presentacion div h1{
+.presentacion h1{
 	color: black;
 	text-align: center;
 	font-size: 250%;
 	margin: 5%;
 	font-family: 'Permanent Marker', cursive;
 }
+	.caja1 h2{
+		position: relative;
+	color: black;
+	left: 15.5%;
+	font-size: 100%;
+	margin: 1%;
+	font-family: sans-serif;
+}
+.caja2 h2{
+	position: relative;
+	color: black;
+	text-align: center;
+	font-size: 100%;
+	margin: 1%;
+	font-family: sans-serif;
+}
+.caja3 h2{
+	position: relative;
+	color: black;
+	left: 66%;
+	font-size: 100%;
+	margin: 1%;
+	font-family: sans-serif;
+}
+
