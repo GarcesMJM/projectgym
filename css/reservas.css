@@ -1,10 +1,35 @@
-body {
+body{
     background-image: url(https://www.wallpapertip.com/wmimgs/12-129961_gym-motivation-hd-wallpapers-fondos-de-pantalla-hd.jpg);
 
 }
-.h444{
-    background-color: gray;
-    width: 400px;
-    height: 400px;
-    
-}
+
+	.reservas {
+			border: 1px solid black;
+			border-radius: 10px;
+			width: 400px;
+			height: 550px;
+			position: relative;
+			left: 440px;
+			top: 1px;
+			font-family: sans-serif;
+			font-size: 20px;
+			background-color: white;
+			padding: 30px;
+			margin: 20px;
+
+		}
+	.reservas form {
+			text-align: center;
+		}
+    .reservas a {
+			color: grey;
+			font-size: 20px;
+			}
+	.reservas h4{
+		color: black;
+		text-align: center;
+	}
+	.reservas a button{
+		text-align: center;
+		font-family: serif;
+	}
