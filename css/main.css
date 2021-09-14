@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	padding: 10px;
 	margin: 20px;
@@ -123,3 +124,17 @@ body {
 	margin: 1%;
 	font-family: 'Permanent Marker', serif ;
 }
+=======
+
+		body {
+			background-color: #99d8f1;
+			font-family: sans-serif;
+			
+		}
+		div a {
+			text-decoration: none;
+			color: gray;
+			
+		} 
+		
+>>>>>>> 749e3f6b3282d0176f72d836f1e423d6d4b7d54a
