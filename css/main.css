@@ -117,10 +117,12 @@ body {
 }
 .visual div p{
 	display: line;
-	color: white;
+	color: rgb(247, 247, 247);
 	font-size: 150%;
 	margin: 5%;
+	padding: 1opx;
 	font-family: 'Playfair Display', cursive;
+	text-align: center;
 }
 
 .visual div h1{
