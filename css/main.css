@@ -94,6 +94,17 @@ body {
 	width: 100%;
 	margin: 0px 0px;
 }
+.visual{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imgs/maquinas.jpg);
+	background-size: cover;
+	padding: 23%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .visual div{
 	position: absolute;
 	top: 30%;
@@ -124,34 +135,7 @@ body {
 	margin: 5%;
 	font-family: 'Permanent Marker', serif ;
 }
-.contactos ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 5px;
-	background-color: white;
-	overflow: hidden;
-	width: 100%;
-}
-.contactos li{
-	float: left;
-}
-.contactos li img{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	margin: 10px;
-	text-decoration: none;
-	border-radius: 2px;
-	font-family: 'Playfair Display', serif;
-}
-.contactos div h5{
-	color: black;
-	text-align: center;
-	font-size: 100%;
-	margin: 1%;
-	font-family: 'Permanent Marker',  cursive;
-}
+
 .presentacion{
 	position: relative;
 }
