@@ -104,6 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+	font-family: 'Times New Roman', Times, serif;
 }
 .visual div{
 	position: absolute;
@@ -112,6 +113,7 @@ body {
 	padding: 1%;
 	margin: 5px;
 	width: 40%;
+	font-family: 'Times New Roman', Times, serif;
 }
 .visual div p{
 	display: line;
@@ -122,18 +124,19 @@ body {
 }
 
 .visual div h1{
-	color: blue;
+	color: rgb(255, 166, 0);
 	text-align: center;
 	font-size: 250%;
 	margin: 5%;
-	font-family: 'Permanent Marker', serif ;
+	font-family: 'Times New Roman', Times, serif
 }
 .visual div h2{
-	color: blue;
+	color: rgb(255, 166, 0);
 	text-align: center;
-	font-size: 250%;
-	margin: 5%;
-	font-family: 'Permanent Marker', serif ;
+	font-size: 200%;
+	margin: 10%;
+	
+	font-family: 'Times New Roman', Times, serif
 }
 
 .presentacion{
@@ -178,3 +181,70 @@ body {
 	font-family: sans-serif;
 }
 
+footer{
+	background-color:rgb(99, 98, 98);
+	height: auto;
+	width: 100vw;
+	font-family: 'Times New Roman', Times, serif;
+	color: honeydew;
+}
+.footer-contenido{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-contenido h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-contenido p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+
+}
+.social{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+	
+}
+.social li{
+	margin: 0 10px;
+}
+.social a{
+	text-decoration: none;
+	color: white;
+}
+.social a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+.social a:hover i{
+	color: turquoise;
+}
+
+.footer-boton{
+	background: rgb(39, 39, 38);
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-boton p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+
+}
+.footer-boton span{
+	text-transform: uppercase;
+	opacity: 4;
+	font-weight: 200;
+}
