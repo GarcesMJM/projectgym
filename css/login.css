@@ -1,17 +1,17 @@
 body {
-	    	background-image: url(https://fondosmil.com/fondo/4045.jpg);
-	    	font-size: 100%;
+	    	background-image: linear-gradient(rgba(129, 129, 129, 0.2), rgba(243, 104, 104, 0)) , url(https://fondosmil.com/fondo/4045.jpg);
+	    	background-size: cover;
 	    }
 
 		div {
-			border: 1px solid black;
+			border: 2px solid orange;
 			border-radius: 10px;
 			width: 400px;
 			height: 300px;
 			position: relative;
 			left: 400px;
 			top: 100px;
-			font-family: sans-serif;
+			font-family: 'Times New Roman', Times, serif;
 			font-size: 20px;
 			background-color: white;
 			padding: 30px;
@@ -20,6 +20,8 @@ body {
 		}
 		div form {
 			text-align: center;
+
+
 			
 		}
 		div a {
@@ -28,12 +30,52 @@ body {
 			font-size: 17px;
 		}
 		div p {
-			color: black;
+			color: gray;
 			text-align: center;
 			font-size: 90%;
 			margin: 5%;
-			font-family: serif;
+			font-family: 'Times New Roman', Times, serif;
 		}
 		div p a {
 			color: grey;
+		}
+		.login input{
+			border-top-style: none;
+            border-left-style: none;
+			border-right-style: none;
+		}
+		div form span{
+			color: orange;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 30px;
+		}
+		.boton{
+			background-color: gray;
+		display: ruby;
+		color: orange;
+		text-align: center;
+		padding: 5px;
+		margin: 15px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 22px;
+		}
+		.boton:hover{
+			background-color: red;
+	
+		}
+		.buton{
+			background-color: gray;
+			display: ruby;
+			color: orange;
+			padding: 5px;
+			margin: 10px;
+			text-decoration: none;
+			border-radius: 5px;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 22px;	
+		}
+		.buton:hover{
+			background-color: red;
 		}

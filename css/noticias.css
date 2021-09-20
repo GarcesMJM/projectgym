@@ -30,3 +30,18 @@ background-size: cover;
     color: white;
     font-size: 25px;
 }
+.boton{
+	background-color: gray;
+		display: ruby-base;
+		color: orange;
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 22px;
+}
+.boton:hover{
+	background-color: red;
+}

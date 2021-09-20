@@ -4,7 +4,7 @@ body{
 
 
 	.reservas {
-			border: 1px solid black;
+			border: 2px solid orange;
 			border-radius: 10px;
 			width: 400px;
 			height: 550px;
@@ -25,6 +25,47 @@ body{
 		}
 		.reservas a {
 			text-decoration: none;
-			color: grey;
+			color: orange;
 			font-size: 17px;
 	    }
+		.boton{
+			background-color: gray;
+		display: ruby-base;
+		color: orange;
+		text-align: center;
+		padding: 5px;
+		margin: 15px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 22px;
+		}
+		.boton:hover{
+			background-color: red;
+		}
+		div form span{
+			color: orange;
+			font-size: 20px;
+			font-family: 'Times New Roman', Times, serif;
+
+		}
+		div form input{
+			border-top-style: none;
+			border-left-style: none;
+			border-right-style: none;
+		}
+		.reservac{
+			background-color: gray;
+		display: ruby-base;
+		color: orange;
+		text-align: center;
+		padding: 5px;
+		margin: 15px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 22px;
+		}
+		.reservac:hover{
+			background-color: red;
+		}

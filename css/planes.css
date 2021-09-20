@@ -5,16 +5,16 @@ body {
 	
 }
 .titulo {
-    color: black;
+    color: orange;
 	text-align: center;
 	font-family: serif;
 }
 .plan1{
 	text-align: center;
-	border: 1px solid black;
+	border: 2px solid orange;
 	border-radius: 100px;
 	width: 400px;
-	height: 250px;
+	height: 300px;
 	position: relative;
 	left: 400px;
 	top: 10px;
@@ -27,7 +27,7 @@ body {
 }
 .plan2{
 	text-align: center;
-	border: 1px solid black;
+	border: 2px solid orange;
 	border-radius: 100px;
 	width: 400px;
 	height: 300px;
@@ -42,7 +42,7 @@ body {
 }
 .plan3{
 	text-align: center;
-	border: 1px solid black;
+	border: 2px solid orange;
 	border-radius: 100px;
 	width: 400px;
 	height: 400px;
@@ -58,4 +58,28 @@ body {
 .titulo p{
 	color: white;
 	font-size: 20px;
+}
+.plan1 h2{
+	color: orange;
+}
+.plan2 h2{
+	color: orange;
+}
+.plan3 h2{
+	color: orange;
+}
+.boton{
+	background-color: gray;
+		display: ruby-base;
+		color: orange;
+		text-align: center;
+		padding: 5px;
+		margin: 15px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 22px;
+}
+.boton:hover{
+	background-color: red;
 }
