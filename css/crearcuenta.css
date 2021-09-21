@@ -6,11 +6,11 @@ body{
 			border: 1px solid black;
 			border-radius: 10px;
 			width: 400px;
-			height: 620px;
+			height: 750px;
 			position: relative;
 			left: 400px;
 			top: 30px;
-			font-family: serif;
+			font-family: 'Times New Roman', Times, serif;
 			font-size: 20px;
 			background-color: white;
 			padding: 30px;
@@ -25,3 +25,43 @@ body{
 			color: grey;
 			font-size: 17px;
 			}
+		.crearcuenta input{
+			border-top-style: none;
+            border-left-style: none;
+			border-right-style: none;
+		}
+		div form span{
+			color: orange;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 30px;
+		}
+		.buton {
+			background-color: gray;
+			display: ruby;
+			color: orange;
+			padding: 5px;
+			margin: 10px;
+			text-decoration: none;
+			border-radius: 5px;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 22px;	
+		}
+		.buton:hover{
+			background-color: red;
+		}
+		.boton {
+			background-color: gray;
+			display: ruby;
+			color: orange;
+			text-align: center;
+			padding: 5px;
+			margin: 10px;
+			text-decoration: none;
+			border-radius: 5px;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 22px;
+		}
+		.boton:hover{
+			background-color: red;
+
+		}
