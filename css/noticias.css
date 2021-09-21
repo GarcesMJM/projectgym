@@ -36,7 +36,7 @@ background-size: cover;
 		color: orange;
 		text-align: center;
 		padding: 10px;
-		margin: 10px;
+		margin: 50px;
 		text-decoration: none;
 		border-radius: 5px;
 		font-family: 'Times New Roman', Times, serif;
@@ -44,4 +44,18 @@ background-size: cover;
 }
 .boton:hover{
 	background-color: red;
+}
+.contenido2{
+	border: 2px solid orange;
+			border-radius: 10px;
+			width: 300px;
+			height: 450px;
+			position: relative;
+			left: 450px;
+			top: 0px;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 18px;
+			background-color: white;
+			padding: 30px;
+			margin: 50px;
 }
