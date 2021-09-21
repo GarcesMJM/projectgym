@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(236, 193, 102, 0.164), rgba(238, 176, 94, 0.219)), url(https://images3.alphacoders.com/100/1004615.jpg);
+    background-image:linear-gradient(rgba(236, 193, 102, 0.055), rgba(238, 176, 94, 0.075)), url(https://images3.alphacoders.com/100/1004615.jpg);
 background-size: cover;
 }
 
@@ -25,10 +25,13 @@ background-size: cover;
     color: orange;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+	text-align: center;
 }
 .titulo p{
     color: white;
     font-size: 25px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
 }
 .boton{
 	background-color: gray;
