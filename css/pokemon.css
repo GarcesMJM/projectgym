@@ -18,16 +18,20 @@ body{
 }
 
 input{
-    background-color: gray;
+    background-color: rgb(192, 9, 9);
     border-radius: 50px;
     color: orange;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
     font-style: italic;
-    width: 100px;
-
+    width: 150px;
+    letter-spacing: 4px;
 }
-
+input:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px
+    #a945c7, 0 0 80px #a945c7;
+}
 .pok1{
     font-family: fantasy;
     font-size: 20px;
@@ -41,6 +45,17 @@ input{
     font-style: italic; 
 }
 
+.imagen1{
+    
+    height: 500px;
+    width: 400px;
+}
+
+.imagen2{
+    
+    height: 500px;
+    width: 400px;
+}
 .nombre1{
     border: 2px solid orange;
     border-radius: 50px;
