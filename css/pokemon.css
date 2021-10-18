@@ -18,30 +18,21 @@ body{
 }
 
 input{
-    background-color: gray;
+    background-color: rgb(192, 9, 9);
     border-radius: 50px;
     color: orange;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    width: 100px;
-
-}
-
-.pok1{
     font-family: fantasy;
-    font-size: 20px;
     font-style: italic;
-    
+    width: 150px;
+    letter-spacing: 4px;
 }
-
-.pok2{
-    font-family: fantasy;
-    font-size: 20px;
-    font-style: italic; 
+input:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px
+    #a945c7, 0 0 80px #a945c7;
 }
-
-.n1{
+.t{
     border: 2px solid orange;
     border-radius: 50px;
     width: 100px;
@@ -49,58 +40,3 @@ input{
     background-color: chocolate;
 }
 
-.t1{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
-
-.a1{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
-
-.d1{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
-.n2{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-
-}
-
-.t2{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
-
-.a2{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
-
-.d2{
-    border: 2px solid orange;
-    border-radius: 50px;
-    width: 100px;
-    height: 25px;
-    background-color: chocolate;
-}
