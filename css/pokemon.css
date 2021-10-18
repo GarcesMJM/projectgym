@@ -8,6 +8,7 @@ body{
     width: auto;
     color: orange;
     font-size: 25px;
+    font-style: italic;
 }
 
 .TextoBa{
@@ -16,3 +17,88 @@ body{
     font-size: 20px;
 }
 
+input{
+    background-color: gray;
+    color: orange;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.pok1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.pok2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic; 
+}
+
+.nombre1{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+
+.tipo1{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+
+.ataque1{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+
+.defensa1{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+.nombre{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+
+}
+
+.tipo{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+
+.ataque{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
+
+.defensa{
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+}
