@@ -1,8 +1,8 @@
-deja pokemon1, pokemon2;
+let dejapokemon1, pokemon2;
 let name1, name2;
-deja ataque1, ataque2;
-dejemos defensa1, defesensa2;
-funcion batalla (){
+let dejaataque1, ataque2;
+let dejemosdefensa1, defesensa2;
+funcion 
   let aleatorio1 = Math.round (Math.random () * (150-1) + parseInt (1)) ;;
   let aleatorio2 = Math.round (Math.random () * (150-2) + parseInt (1)) ;;
   p1 = document.getElementById ("img1");
@@ -19,7 +19,7 @@ funcion batalla (){
   traerDatos (p2, nombre2, tipo2, ataque2, defensa2, aleatorio2);
   fondo (aleatorio1);
   fondo (aleatorio2);
-  }
+  
   function traerDatos (contenedor, nombre, tipo, ataque, defensa, id) {
     buscar (`https://pokeapi.co/api/v2/pokemon/ {id}`)
     .entonces (respuesta => respuesta.json ())
@@ -32,6 +32,6 @@ funcion batalla (){
      })
 }
   
-window.onload = función recargar () {
+window.onload = función 
     batalla ();
-    }
+    
