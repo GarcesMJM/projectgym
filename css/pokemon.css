@@ -1,0 +1,18 @@
+body{
+    background-image:linear-gradient(rgba(46, 45, 45, 0.7), rgba(66, 66, 66, 0.7)),url(https://supercurioso.com/wp-content/uploads/2018/08/naranja-1.jpg);
+    position: absolute;
+}
+
+.batalla{
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    color: orange;
+    font-size: 25px;
+}
+
+.TextoBa{
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    font-size: 20px;
+}
+
