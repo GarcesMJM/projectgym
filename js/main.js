@@ -1,9 +1,9 @@
-deja poke1, poke2;
-deja tip1, tip2;
+dejapoke1, poke2;
+dejatip1, tip2;
 let nomb1, nomb2;
-deja ataq1, ataq2;
-dejemos defen1, defen2;
-funcion batalla (){
+dejaataq1, ataq2;
+let dejemosdefen1, defen2;
+let funcionbatalla 
   let aleatorio1 = Math.round (Math.random () * (100-1) + parseInt (1)) ;;
   let aleatorio2 = Math.round (Math.random () * (100-2) + parseInt (1)) ;;
   poke1 = document.getElementById ("img1");
@@ -18,7 +18,13 @@ funcion batalla (){
   defen2 = document.getElementById ("defensa2");
   traerDatos (poke1, nomb1, tip1, ataq1, defen1, aleatorio1);
   traerDatos (poke2, nomb2, tip2, ataq2, defen2, aleatorio2);
+<<<<<<< HEAD
   }
+=======
+  fondo (aleatorio1);
+  fondo (aleatorio2);
+  
+>>>>>>> 9549246e38e64854a3cf9a68276c80725f4873b2
   function traerDatos (contenedor, nombre, tipo, ataque, defensa, id) {
     buscar (`https://pokeapi.co/api/v2/pokemon/$ {id}`)
     .entonces (respuesta => respuesta.json ())
@@ -30,7 +36,3 @@ funcion batalla (){
       defensa.innerHTML = "Defensa:" + data.stats [3] .base_stat;
      })
 }
-  
-window.onload = función recargar () {
-    batalla ();
-    }
