@@ -18,8 +18,6 @@ funcion batalla (){
   defen2 = document.getElementById ("defensa2");
   traerDatos (poke1, nomb1, tip1, ataq1, defen1, aleatorio1);
   traerDatos (poke2, nomb2, tip2, ataq2, defen2, aleatorio2);
-  fondo (aleatorio1);
-  fondo (aleatorio2);
   }
   function traerDatos (contenedor, nombre, tipo, ataque, defensa, id) {
     buscar (`https://pokeapi.co/api/v2/pokemon/$ {id}`)
