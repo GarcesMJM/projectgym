@@ -15,25 +15,6 @@ body{
     text-align: center;
 
 }
-.batalla{
-    border: 5px solid darkorange;
-    border-radius: 80px;
-    position: relative;
-    left: 35%;
-    top: 100px;
-    background: chocolate;
-    justify-content: space-around;
-    font-family: 'Times New Roman', Times, serif;
-    width: auto;
-    color: orange;
-    margin: 0 auto;
-    display: flex;
-    font-style: italic;
-    text-shadow: 0 0 10px #000000, 0 0 40px
-    #000000, 0 0 80px #000000;
-
-}
-
 h2{
     text-align: center;
     text-shadow: 0 0 10px #000000, 0 0 40px
@@ -55,28 +36,28 @@ h3{
     letter-spacing: 4px;
 
 }
-.ba{
-    text-align: center;
-    justify-content: center;
-}
-input{
-    background-color: rgb(192, 9, 9);
-    border-radius: 50px;
+.batalla{
+    border: 5px solid darkorange;
+    border-radius: 80px;
     position: relative;
-    top: 150px;
-    left: 600px;
+    left: 35%;
+    top: 100px;
+    background: chocolate;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
     color: orange;
-    font-size: 25px;
-    font-family: fantasy;
+    margin: 0 auto;
+    display: flex;
     font-style: italic;
-    width: 150px;
-    letter-spacing: 4px;
+    text-shadow: 0 0 10px #000000, 0 0 40px
+    #000000, 0 0 80px #000000;
+
 }
-input:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px
-    #a945c7, 0 0 80px #a945c7;
+h1{
+    font-size: 100px;
 }
+
 .pok1{
     font-family: fantasy;
     font-size: 20px;
@@ -112,4 +93,26 @@ input:hover{
     background-color: chocolate;
 }
 
+input{
+    background-color: rgb(192, 9, 9);
+    border-radius: 50px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+    color: orange;
+    font-size: 25px;
+    font-family: fantasy;
+    font-style: italic;
+    width: 150px;
+    letter-spacing: 4px;
+}
+input:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px
+    #a945c7, 0 0 80px #a945c7;
+}
+.ba{
+    text-align: center;
+    justify-content: center;
+    }
 
