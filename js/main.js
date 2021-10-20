@@ -2,8 +2,8 @@ deja poke1, poke2;
 deja tip1, tip2;
 let nomb1, nomb2;
 deja ataq1, ataq2;
-let dejemosdefen1, defen2;
-let funcionbatalla ;
+deja defen1, defen2;
+function batalla(){
   let aleatorio1 = Math.round (Math.random () * (100-1) + parseInt (1)) ;;
   let aleatorio2 = Math.round (Math.random () * (100-2) + parseInt (1)) ;;
   poke1 = document.getElementById ("img1");
@@ -19,6 +19,8 @@ let funcionbatalla ;
   traerDatos (poke1, nomb1, tip1, ataq1, defen1, aleatorio1);
   traerDatos (poke2, nomb2, tip2, ataq2, defen2, aleatorio2);
 
+}
+  
   function traerDatos (contenedor, nombre, tipo, ataque, defensa, id) {
     buscar (`https://pokeapi.co/api/v2/pokemon/$ {id}`)
     .entonces (respuesta => respuesta.json ())
