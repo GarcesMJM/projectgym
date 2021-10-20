@@ -116,3 +116,14 @@ input:hover{
     justify-content: center;
     }
 
+.Mewtwo{
+    width: 300px;
+    position: relative;
+    bottom: 280px;
+}
+.Lucario{
+    width: 300px;
+    position: relative;
+    left: 750px;
+    bottom: 280px;
+}
